@@ -33,9 +33,9 @@ h1{
     color: blue;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 200px) and (max-width: 400px){
     h1{
-       font-size: 1.9rem;
+       font-size: 2rem;
     }
 }
 
@@ -48,7 +48,7 @@ h1{
     
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 200px) and (max-width: 400px){
     .amount {
        font-size: 1rem;
     }
@@ -62,7 +62,7 @@ h1{
     outline: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 200px) and (max-width: 400px){
     .amount input{
         width: 15vh;
     }
