@@ -50,8 +50,10 @@ btn.addEventListener("click" , async (evt) =>{
     let response = await fetch(URL);
     let data = await response.json();
     let rate = data[fromCurrency][toCurrency];
-    let final_rate = msg.innerText = `${amount.value} ${fromCurrency.toUpperCase()} = ${rate} ${toCurrency.toUpperCase()}`
-    console.log(final_rate)
+     let final_rate = rate * amtValue;
+    let final_msg = msg.innerText = `${amount.value} ${fromCurrency.toUpperCase()} = ${final_rate} ${toCurrency.toUpperCase()}`;
+    console.log(final_msg);
+
 
 
 })
