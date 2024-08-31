@@ -52,7 +52,8 @@ h1{
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
     .amount {
-       font-size: 1.3rem;
+       font-size: 1rem;
+       font-weight: 600;
     }
 }
 
@@ -111,7 +112,6 @@ h1{
 }
 
 #btn{
-    width: 20vw;
     padding: 10px;
     font-size: 1.5rem;
     font-weight: 500;
